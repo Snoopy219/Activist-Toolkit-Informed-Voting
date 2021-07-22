@@ -1,0 +1,348 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   font-family: "lucida console", monospace;
+}
+
+body {
+ background-color: #CAEBF2; 
+}
+
+h1 {
+  color: #FF3B3F;
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:1em;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-bottom: 1em;
+}
+
+h2 {
+  color: #FF3B3F;
+  text-align:center;
+  margin-top : 1em;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+h3{
+  font-style: italic;
+  color: #FF3B3F;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+p{
+  color:#A9A9A9;
+  text-align:center;
+  margin-bottom:1em;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+
+/*HOME PAGE*/
+
+
+/* adds image behind title of homepage */
+.parallax {
+  /* The image used */
+  background-image: url("assets/parrallex.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*FIRST SECTION*/
+
+/* adds parallax effect to first section of info */
+.whatImg{
+  margin-left:0;
+  margin-right:0;
+  /* The image used */
+  background-image: url("assets/what.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*styles first section of info */
+.point1{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+/*SECOND SECTION*/
+
+/*adds parallax effect to second section of info */
+.whoImg{
+  margin-left:0;
+  margin-right:0;
+  /* The image used */
+  background-image: url("assets/who.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*styles second section of info */
+.point2{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+/*THIRD SECTION*/
+
+/*adds parallax effect to third section of info */
+.whyImg{
+  margin-left:0;
+  margin-right:0;
+  /* The image used */
+  background-image: url("assets/why.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* styles third section of info */
+.point3{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+/*styles the footer blurb*/
+#callToAction {
+  font-style:italic;
+  margin-bottom:1em;
+}
+
+
+/*TAKE ACTION PAGE*/
+
+
+/*styles the image on take action page/adds parallex effect*/
+.howImg{
+  margin-left:0;
+  margin-right:0;
+  /* The image used */
+  background-image: url("assets/how.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*styles first section of information*/
+.how{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+/*styles the thinking questions box*/
+.thinkingQuestions{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+
+/*RTV PAGE*/
+/*styles the button that takes to registering website*/
+#rtvButton{
+  background-color: #FF3B3F;
+  color:#EFEFEF;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:3em;
+  font-size: 150%;
+  margin-bottom:3em;
+}
+
+/*styles the title of the page*/
+#rtvTitle{
+  text-decoration-line: underline;
+  text-decoration-style:wavy;
+  text-decoration-color:#CAEBF2;
+}
+
+/*styles/adds parallex effect to footer image*/
+.rtvImg{
+  margin-left:0;
+  margin-right:0;
+  /* The image used */
+  background-image: url("assets/rtvImg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Learn More Page*/
+
+
+.learnMore{
+  display: inline;
+}
+
+/*Styles first link box*/
+.linky1{
+  float: left;
+  width:40%;
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+  margin-right:4%;
+  margin-left:4%;
+}
+
+/*Styles second link box*/
+.linky2{
+  float: right;
+  width:40%;
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+  margin-right:4%;
+  margin-left:4%;
+}
+
+/*Styles link buttons*/
+#button1, #button2{
+  background-color: #FF3B3F;
+  color:#EFEFEF;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:3em;
+  margin-bottom:3em;
+}
+
+/* STYLE NAV BAR */
+.topnav {
+  background-color: #FF3B3F;
+  overflow: hidden;
+  color: #EFEFEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ .topnav a {
+  color: #EFEFEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} 
+
+.navDescript{
+  margin-top:1em;
+  margin-bottom:1em;
+  color:#CAEBF2;
+  font-style:italic;
+}
+
+/*when link is hovered in nav bar*/
+.topnav a:hover {
+  background-color: #CAEBF2;
+  color: #A9A9A9;
+}
+
+/*And it only took 345 lines of code
+to get it that way, siad noone ever :)*/

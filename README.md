@@ -52,3 +52,5 @@ Drag in `assets`, like images or music, to add them to your project. You do not 
 
 Thank you all for supporting my cause. I am so happy to be able to create this project and hope that you also find it useful. Thank you again for all the support and have a great day!
 - Snoopy219
+
+*If you do so choose to fork my code please give me credit. Thanks!

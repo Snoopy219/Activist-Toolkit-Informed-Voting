@@ -9,23 +9,31 @@
 
 	  <!-- link the webpage's stylesheet -->
 	  <link rel="stylesheet" href="/style.css" />
-
+    <div class="pledgeHead">
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="ta.html">Take Action</a>
       <a href="rtv.html">Register to Vote</a>
       <a href="lm.html">Learn More</a>
       <a href="pledge.html">Take the Pledge</a>
-
       <p class = "navDescript">Let's make every vote an informed one!</p>
       </div>
   </head>
   <body>
-    <!-- makes a title and button -->
-    <h2 id="rtvTitle">Ready to vote? The first step is to register!</h2>
-    <input id="rtvButton" type="button" onclick="window.location.href='https://www.usa.gov/register-to-vote';" value="Register to Vote" />
-   
-    <!-- puts that image at the bottom -->
-    <p class="rtvImg"></p>
+    <h2 id="pledgeTitle">Ready to take the pledge to be an informed voter? Enter your name bellow and share your pledge to encourage others to also take the pledge!</h2>
+    </div>
+
+    <div class="form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="theName" name="name">
+    <button id="enter">Enter</button>
+
+    <br><br>
+    <h3 id="pledgeHere"></h3>
+    <p id="pledge"></p>
+    </div>
+
+    <!-- link the webpage's JavaScript file -->
+	  <script src="script.js"></script>
   </body>
 </html>

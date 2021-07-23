@@ -246,6 +246,7 @@ p{
 .rtvImg{
   margin-left:0;
   margin-right:0;
+  margin-bottom:0;
   /* The image used */
   background-image: url("assets/rtvImg.jpg");
 
@@ -312,6 +313,49 @@ p{
   margin-bottom:3em;
 }
 
+
+/*Pledge Page*/
+
+
+.pledgeHead {
+  /* The image used */
+  background-image: url("assets/pledgeHead.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pledgeTitle{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+.form{
+  background-color:#CAEBF2;
+  text-align:center;
+  border-color:#FF3B3F;
+  border-style:dashed;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:2em;
+  margin-bottom:2em;
+}
 /* STYLE NAV BAR */
 .topnav {
   background-color: #FF3B3F;

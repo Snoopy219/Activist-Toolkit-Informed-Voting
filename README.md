@@ -25,6 +25,8 @@ You can extend your project further by:
 - what.jpg: Jaredd Craig via Unsplash
 - who.jpg: Ryoji Iwata via Unsplash
 - why.jpg: Emily Morter via Unsplash
+- pledgeHead.jpg: John Silliman via Unsplash
+
 
 ## File Overview
 
